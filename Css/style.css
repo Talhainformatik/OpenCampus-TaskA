@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: century 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+header{
+    background-image:url(../sample.jpg);
+    height: 60vh;
+    background-size: cover;
+}
+footer{
+    background-color: teal;
+    height: 7vh;
+}
+ul{
+    float: left;
+    list-style-type: none;
+    margin-top: 40px;
+}
+ul li {
+    display: inline-block;
+
+}
+ul li a{
+text-decoration: none;
+color: darkslategrey;
+padding: 10px 20px;
+border: 1px solid transparent;
+transition: 0.6s ease;
+}
+
+ul li.active a{
+background-color:darkslategrey;
+color: white;
+}
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
+}
+.title{
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    transform: translate(-50%,-50%);
+}
+.title h1{
+    color: teal;
+    font-size: xx-large;
+    font-style: oblique;
+}
+
+.talha h2{
+    color: teal;
+    font-size: xx-large;
+    font-style: oblique;
+
+}
+hr{
+    border: dotted darkslategrey
+    text-align: center;
+    height: 5px;
+}
+.rana h3{
+    color: white;
+    font-size: medium;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    text-align: center;
+}
+.sunny h3{
+    color:teal;
+    text-align: center;
+    
+}
+.table{
+        background-color: #f2f2f2;
+        border-collapse: collapse;
+        width: 100%;
+      }
+      
+th, td {
+        text-align: left;
+        padding: 8px;
+      }
+      
